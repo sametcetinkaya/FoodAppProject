@@ -1,9 +1,10 @@
-package com.sametcetinkaya.foodapp
+package com.sametcetinkaya.foodapp.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.navigation.Navigation
 import androidx.navigation.ui.NavigationUI
+import com.sametcetinkaya.foodapp.R
 import com.sametcetinkaya.foodapp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
