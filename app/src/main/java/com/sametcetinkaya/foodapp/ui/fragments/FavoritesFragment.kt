@@ -1,4 +1,4 @@
-package com.sametcetinkaya.foodapp.ui
+package com.sametcetinkaya.foodapp.ui.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

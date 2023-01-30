@@ -1,4 +1,4 @@
-package com.sametcetinkaya.foodapp.ui
+package com.sametcetinkaya.foodapp.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -6,7 +6,9 @@ import androidx.navigation.Navigation
 import androidx.navigation.ui.NavigationUI
 import com.sametcetinkaya.foodapp.R
 import com.sametcetinkaya.foodapp.databinding.ActivityMainBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding

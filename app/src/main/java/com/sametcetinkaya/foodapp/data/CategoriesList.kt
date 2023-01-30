@@ -1,3 +1,5 @@
 package com.sametcetinkaya.foodapp.data
 
-data class CategoriesList()
+data class CategoriesList(
+    val categories: List<Category>
+)

@@ -1,4 +1,4 @@
-package com.sametcetinkaya.foodapp.ui.di
+package com.sametcetinkaya.foodapp.di
 
 import com.sametcetinkaya.foodapp.network.MealApi
 import dagger.Module

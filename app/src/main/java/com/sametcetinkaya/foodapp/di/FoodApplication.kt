@@ -1,4 +1,8 @@
 package com.sametcetinkaya.foodapp.di
 
-class FoodApplication {
+import android.app.Application
+import dagger.hilt.android.HiltAndroidApp
+
+@HiltAndroidApp
+class FoodApplication : Application() {
 }
